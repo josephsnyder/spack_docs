@@ -1,0 +1,8 @@
+test-job:
+  before_script:
+    - date
+    - hostname
+  script:
+    - id
+  after_script:
+    - id

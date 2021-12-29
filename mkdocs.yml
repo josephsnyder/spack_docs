@@ -2,3 +2,4 @@ site_name: SPACK Test
 site_url:
 markdown_extensions:
     - mkdocs_graphviz
+extra_css: [main.css]

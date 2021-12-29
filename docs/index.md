@@ -34,6 +34,7 @@ digraph g {
   Spackbot;
   Spackbot->GitHub[label="Listens for Comments"];
   GitHub->small[lhead=cluster_AWS, label="Pushes Jobs"];
+  GitHub->huge[lhead=cluster_AWS, label="More Jobs"];
 }
 ```
 ##Spackbot
